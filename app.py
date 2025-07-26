@@ -137,6 +137,8 @@ def seed_database(app):
         db.session.add_all(products)
         db.session.commit()
 
+# Create app instance at module level
+app = create_app()
+
 if __name__ == '__main__':
-    app = create_app()
     app.run(debug=True)
