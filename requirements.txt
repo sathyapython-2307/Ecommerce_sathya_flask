@@ -7,4 +7,5 @@ python-dotenv
 bcrypt
 gunicorn
 Werkzeug
+gunicorn==20.1.0
 
